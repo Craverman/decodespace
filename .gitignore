@@ -5,11 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
-.json
 
 # Distribution / packaging
 .Python
 build/
+spark-3.3.2-bin-hadoop3/
+jdk-11.0.2/
 develop-eggs/
 dist/
 downloads/
@@ -128,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.json
 
 # Spyder project settings
 .spyderproject
@@ -160,8 +162,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-spark-3.3.2-bin-hadoop3/
-jdk-11.0.2/
-./jdk-11.0.2
-./spark-3.3.2-bin-hadoop3
-.gitignore
+
+
+
